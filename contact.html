@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Joanes GANHOUNOUTO</title>
+<style>
+
+  *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+  :root {
+    --navy:  #0D1B2A;
+    --navy2: #111f30;
+    --card:  #152333;
+    --blue:  #1A56C4;
+    --gold:  #C8962E;
+    --gold2: #e0ab3f;
+    --text:  #FFFFFF;
+    --muted: #94A3B8;
+    --sub:   #64748B;
+    --border:#1e3048;
+  }
+  html, body { background:#0D1B2A; color:#FFFFFF;
+    font-family:'Segoe UI', Arial, sans-serif; font-size:15px; line-height:1.65; }
+  a { color:var(--gold); text-decoration:none; }
+  a:hover { color:var(--gold2); }
+
+  /* NAV */
+  nav { display:flex; justify-content:space-between; align-items:center;
+    padding:18px 6%; border-bottom:1px solid var(--border);
+    background:#0D1B2A; position:sticky; top:0; z-index:100; }
+  .nav-brand { font-size:14px; font-weight:700; color:#fff; letter-spacing:2px; }
+  .nav-brand span { color:var(--gold); }
+  .nav-links { display:flex; gap:28px; list-style:none; }
+  .nav-links a { font-size:11px; font-weight:600; letter-spacing:2px;
+    text-transform:uppercase; color:var(--muted); transition:color .2s; }
+  .nav-links a:hover, .nav-links a.active { color:var(--gold); }
+
+  /* PAGE HEADER */
+  .page-header { padding:56px 6% 36px; border-bottom:1px solid var(--border); }
+  .page-header .label { font-size:10px; font-weight:700; letter-spacing:4px;
+    text-transform:uppercase; color:var(--gold); margin-bottom:8px; }
+  .page-header h1 { font-size:2.4rem; font-weight:800; color:#fff; letter-spacing:1px; }
+  .page-header .underline { width:50px; height:3px; background:var(--gold);
+    margin-top:12px; border-radius:2px; }
+
+  footer { text-align:center; padding:24px; border-top:1px solid var(--border);
+    font-size:11px; color:var(--sub); margin-top:60px; }
+
+.content{max-width:560px;margin:80px auto;padding:0 6%;text-align:center;}
+.sub{font-size:.93rem;color:var(--muted);margin-bottom:44px;line-height:1.75;}
+.links{display:flex;flex-direction:column;gap:10px;max-width:360px;margin:0 auto;}
+.cl{display:flex;align-items:center;gap:14px;padding:15px 22px;
+  border:1px solid var(--border);border-radius:8px;
+  color:#D1D9E6;font-size:13.5px;font-weight:500;transition:all .2s;}
+.cl:hover{border-color:var(--gold);color:var(--gold);}
+</style></head><body>
+
+  <nav>
+    <div class="nav-brand">Joanes <span>GANHOUNOUTO</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html" >Accueil</a></li>
+      <li><a href="about.html" >À propos</a></li>
+      <li><a href="certifications.html" >Certifications</a></li>
+      <li><a href="projets.html" >Projets</a></li>
+      <li><a href="contact.html" class='active'>Contact</a></li>
+    </ul>
+  </nav>
+<div class="page-header">
+  <p class="label">Contact</p><h1>Travaillons ensemble</h1><div class="underline"></div>
+</div>
+<div class="content">
+  <p class="sub">Disponible pour des missions MEL, des analyses de données et des collaborations sur des projets de recherche en Afrique de l'Ouest.</p>
+  <div class="links">
+    <a href="mailto:ganhounoutoserge@gmail.com" class="cl">✉&nbsp; ganhounoutoserge@gmail.com</a>
+    <a href="tel:+2250575860747" class="cl">📞&nbsp; (+225) 0575 860 747</a>
+    <a href="https://linkedin.com/in/joanes-ganhounouto" class="cl" target="_blank">💼&nbsp; LinkedIn</a>
+    <a href="https://github.com/serge1740" class="cl" target="_blank">⌨&nbsp; GitHub — serge1740</a>
+  </div>
+</div>
+<footer>© 2026 · Joanes Serge GANHOUNOUTO · Ingénieur Statisticien Économiste · Abidjan</footer></body></html>
